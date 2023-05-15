@@ -1,0 +1,75 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background:#fee;
+}
+.navbar a{
+    /* color: #fff; */
+    padding: 4px;
+    font-size: 18px;
+}
+.navbar a:hover{
+    border-bottom: 4px solid #000;
+}
+.signup a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 12px 30px;
+    border: 2px solid #ff0000;
+}
+.signup a:hover{
+background-color: red;
+}
+
+/* packages */
+
+.pack-text h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+.packages .card{
+   border-radius: 5px;
+   border: none;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   padding: 40px;
+/* width: 300px;
+margin-left: 60px; */
+}
+.packages .card img{
+    border-radius: 5px;
+    height: 30vh;
+}
+.packages .card .card-body{
+    background: transparent;
+}
+.packages .card .card-body h3{
+    font-size: 25px;
+    font-weight:600 ;
+}
+.packages .card .card-body p{
+    font-size: 15px;
+}
+.checked{
+    color: #ffa500;
+}
+.star i{
+    font-size: 15px;
+}
+.packages .card .card-body h6{
+    font-size: 20px;
+}
+.packages .card .card-body a{
+    padding: 10px;
+    text-decoration: none;
+    background: #161a75;
+    color: white;
+    border-radius: 5px;
+}

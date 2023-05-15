@@ -1,0 +1,92 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+.navbar{
+    /* background:#333; */
+    background:#fee;
+}
+.navbar a{
+    /* color: #fff; */
+    padding: 4px;
+    font-size: 18px;
+}
+.navbar a:hover{
+    border-bottom: 4px solid #000;
+}
+.signup a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 12px 30px;
+    border: 2px solid #ff0000;
+}
+.signup a:hover{
+background-color: red;
+}
+
+/* signup */
+.wrapper{
+    width: 400px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: #FFf;
+    border-radius:10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+h1{
+    font-size: 2rem;
+    color: #07001f;
+    margin-bottom: 1.2rem;
+}
+form input{
+    width: 100%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #e4e4ee;
+}
+button{
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: #fff;
+    cursor: pointer;
+    background:rgb(17, 107, 143)
+}
+button:hover{
+    background: rgba(17, 107, 143, 0.8);
+}
+input:focus{
+    border: 1px solid rgb(192, 192, 192);
+}
+.member{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: #636363;
+}
+.member a{
+    color: rgb(17, 107, 143);
+    text-decoration: none;
+}
+
+.recover{
+text-align: right;
+font-size: 0.7rem;
+margin: 0.3rem 1.4rem 0 0;
+}
+.recover a{
+    text-decoration: none;
+    color: #464647;
+}

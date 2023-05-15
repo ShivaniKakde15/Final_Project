@@ -1,0 +1,75 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background:#fee;
+}
+.navbar a{
+    /* color: #fff; */
+    padding: 4px;
+    font-size: 18px;
+}
+.navbar a:hover{
+    border-bottom: 4px solid #000;
+}
+.signup a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 12px 30px;
+    border: 2px solid #ff0000;
+}
+.signup a:hover{
+background-color: red;
+}
+
+/* book */
+.book{
+    background: #f9f9f9f9;
+    padding: 50px;
+}
+.text h1{  
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+.book .card{
+   border-radius: 10px;
+   box-shadow: 0px 5px 5px -6px black;
+}
+.book .row{
+    margin-top: 30px;
+}
+.book form input{
+  padding: 10px;
+  color: black;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px -6px black;
+  margin-bottom: 10px;
+}
+.book form textarea{
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 0px 5px 5px -6px black;
+    height: 200px;
+}
+.book .submit{
+    width: 160px;
+    font-size: 16px;
+    font-weight: 550;
+    background: #ffa500;
+    color: white;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+.book .submit:hover{
+    width: 170px;
+}
