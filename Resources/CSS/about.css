@@ -5,16 +5,22 @@ body{
     font-family: 'poppins',sans-serif;
 }
 .navbar{
-    /* background:#333; */
-    background:#fee;
+    background: #d2ad16;;
+}
+.navbar li{
+    margin-left: 10px;
+    margin-top: 4px;
 }
 .navbar a{
-    /* color: #fff; */
+    color: #000;
     padding: 4px;
     font-size: 18px;
 }
 .navbar a:hover{
     border-bottom: 4px solid #000;
+}
+.logo img{
+    height: 6vh;
 }
 .signup a{
     text-decoration: none;
@@ -26,15 +32,12 @@ body{
     border: 2px solid #ff0000;
 }
 .signup a:hover{
-background-color: red;
+   background-color: #ff0000;
 }
 
 /* about */
-.container{
-    margin: 0;
-}
 .about{
-    margin-top: 50px;
+   padding: 50px;
     background: #f9f9f9;
     display: flex;
     justify-content: center;
@@ -49,17 +52,19 @@ background-color: red;
 }
 
 .about .card{
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    border: none;
 }
 .about .card img{
     border-radius: 10px;
-    width: 450px;
+    padding: 30px;
+    /* width: 450px;
     margin-left: 72px;
-    margin-right: 72px;
+    margin-right: 72px; */
 }
 .about p{
     font-weight: 500;
-    padding: 100px;
+    /* padding: 100px; */
 }
 
 .row{
