@@ -66,6 +66,9 @@ body{
 }
 .packages .card .card-body p{
     padding: .5rem 0;
+    text-align: justify;
+    letter-spacing: 0.1px;
+    word-spacing: 5px;
 }
 .checked{
     color: #ffa500;
