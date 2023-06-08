@@ -1,5 +1,5 @@
 function myFunction() {
-  alert("Please sign up or sign in before booking your tour!");
+  alert("Please, sign up or sign in before booking your tour!");
 }
 
 // disable old date
