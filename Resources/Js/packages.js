@@ -1,3 +1,4 @@
+//-----------Image Change----------
 //India
 function setNewIndiaImg() {
     document.getElementById('indiaimg').src = "Resources/images/india1.jpg";
@@ -46,3 +47,21 @@ function setNewLondonImg() {
 function setOldLondonImg() {
     document.getElementById('londonimg').src = "Resources/images/london.jpg";
 }
+
+
+//----------Load more---------
+let col = document.querySelectorAll('.col');
+let btn = document.querySelector('.btnload');
+let cuurentcol = 3
+btn.addEventListener('click', function () {
+    // console.log('hi');
+    for(let i = cuurentcol; i<cuurentcol+3; i++){   
+        if (col[i]){                               // it checks if the col[i] element exists.
+            col[i].style.display = 'block';    //If it does, it sets the display style property to 'block', effectively displaying the element.
+        }
+    }
+    cuurentcol+=3;                   //incremented by 3.
+    if (cuurentcol>=col.length){    //It checks if currentcol is greater than or equal to the length of the col array.
+        event.target.style.display = 'none';  //button display = none
+    }   
+})
