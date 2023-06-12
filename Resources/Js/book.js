@@ -3,6 +3,7 @@ function myFunction() {
 }
 
 
+
 // disable old date
 var date = new Date();    //display todays date(mm-dd-yy)
 var tdate = date.getDate();   //show todays date only (8)
