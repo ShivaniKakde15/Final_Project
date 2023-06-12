@@ -48,6 +48,45 @@ function setOldLondonImg() {
     document.getElementById('londonimg').src = "Resources/images/london.jpg";
 }
 
+//Canada
+function setNewCanadaImg() {
+    document.getElementById('canadaimg').src = "Resources/images/Niagara-Falls-Canada1.jpg";
+}
+function setOldCanadaImg() {
+    document.getElementById('canadaimg').src = "Resources/images/canda_rockymountain.jpg";
+}
+
+//China
+function setNewChinaImg() {
+    document.getElementById('chinaimg').src = "Resources/images/giant-buddha-china1.jpg";
+}
+function setOldChinaImg() {
+    document.getElementById('chinaimg').src = "Resources/images/greatwall_china.jpg";
+}
+
+//Singapore
+function setNewSingaporeImg() {
+    document.getElementById('singaporeimg').src = "Resources/images/Peranakan houses_singapore1.jpg";
+}
+function setOldSingaporeImg() {
+    document.getElementById('singaporeimg').src = "Resources/images/Architectural-Marvels_Singapore.jpg";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //----------Load more---------
 let col = document.querySelectorAll('.col');
