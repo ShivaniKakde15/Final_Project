@@ -95,6 +95,42 @@ body{
     color: #ffa500;
 } 
 
+.packages .col{
+    display: none;
+}
+
+.packages .col:nth-child(1),
+.packages .col:nth-child(2),
+.packages .col:nth-child(3){
+    display: block;
+}
+
+/* load more */
+.load-more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+button{
+    border-radius: 5px;
+    width: 150px;
+    padding: 6px;
+    font-size: 20px;
+    background-color: #d2ad16;
+    border-color: #d2ad16;
+    color: white;
+    cursor: pointer;
+    font-weight:500;
+    margin-top: 40px;
+}
+
+.btnload:hover{
+    background-color: black;
+    border-color: black;
+    color: #fff;
+}
+
 
 /* footer */
 .footer {
